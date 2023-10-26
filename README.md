@@ -48,6 +48,11 @@ Otherwise, run the following Go command to install the `gin` package:
 $ go get -u github.com/gin-gonic/gin
 ```
 
+If you get `'go get' is no longer supported outside a module` error try this command:
+```sh
+$ go install github.com/gin-gonic/gin@latest
+```
+
 ### Running Gin
 
 First you need to import Gin package for using Gin, one simplest example likes the follow `example.go`:
